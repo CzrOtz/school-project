@@ -1,0 +1,17 @@
+Project
+|
+|-- pages |
+        holds html
+|
+|-- scripts |
+            holds js
+|
+| -- styles |
+            holds css
+
+|
+| - index.html
+|
+| - readme
+|
+| -- universalStyles.css

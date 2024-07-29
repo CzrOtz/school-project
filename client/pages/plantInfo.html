@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Info</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/plantInfo.css"> <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="../universalStyle.css">
+</head>
+<body>
+    <div class="container-md bg-dark text-white py-5 mb-5">
+        <div class="header mb-4">
+            <a href="displayPlantInfo.html" class="btn btn-primary mb-3">
+                <i class="fas fa-bars"> Go Back </i>
+            </a>
+            <h1>Plant Info</h1>
+        </div>
+        <div class="content d-flex flex-column align-items-center">
+            <p>Enter parameters for the plant</p>
+            <form class="w-50">
+                <div class="form-group">
+                    <label for="plantID" class="form-label">Plant ID</label>
+                    <input type="text" name="plantID" id="plantID" class="form-control" required placeholder="ID">
+                </div>
+                <div class="form-group">
+                    <label for="plantName" class="form-label">Plant Name</label>
+                    <input type="text" name="plantName" id="plantName" class="form-control" required placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="plantLocation" class="form-label">Plant Location</label>
+                    <input type="text" name="plantLocation" id="plantLocation" class="form-control" required placeholder="Location">
+                </div>
+                <div class="form-group">
+                    <label for="plantDate" class="form-label">Date of Installation</label>
+                    <input type="date" name="plantDate" id="plantDate" class="form-control" required placeholder="Date">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" id="submit" class="btn btn-primary mt-2">Submit</button>
+                </div>
+            </form>
+            <p class="content d-flex flex-column align-items-center">stores into local storage</p>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../scripts/plantInfo.js"></script>
+</body>
+</html>
+
+

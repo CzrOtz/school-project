@@ -1,0 +1,55 @@
+/* Universal CSS for all pages
+
+/* Container styling */
+.container-md, .container {
+    border-radius: 15px; /* Round off borders */
+    background-color: #343a40; /* Dark background color similar to bg-dark */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+/* Background styling */
+body {
+    background-color: #3d434a; /* Slightly lighter background color */
+    color: white; /* Make all text white */
+}
+
+/* Header styling */
+.header h1 {
+    font-size: 2.5rem;
+    color: white; /* Ensure header text is white */
+}
+
+/* Content styling */
+.content p.display-4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white; /* Ensure content text is white */
+}
+
+.form-group label {
+    font-weight: bold;
+    color: white; /* Ensure form labels are white */
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    border-radius: 8px; /* Round off input borders */
+    color: black; /* Input text should remain black for readability */
+}
+
+#calculate {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 8px; /* Round off button borders */
+}
+
+a {
+    color: white; /* Ensure all anchor text is white */
+}
+
+button {
+    color: white; /* Ensure all button text is white */
+} 
+

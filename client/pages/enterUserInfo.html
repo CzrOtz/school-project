@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../universalStyle.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class="content text-center">
+            <div class="header">
+                <h1>Before You Start</h1>
+                <p>Please take a moment to enter your information</p>
+            </div>
+            <div class="main-content">
+                <form id="userInfoForm">
+                    <p>Enter first name:</p>
+                    <input type="text" name="firstName" id="firstName" class="form-control" required>
+                    <p>Enter last name:</p>
+                    <input type="text" name="lastName" id="lastName" class="form-control" required>
+                    <p>Enter Birth Date:</p>
+                    <input type="date" name="birthDate" id="birthDate" class="form-control" required>
+                    <p>Enter email:</p>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                    <p>Enter a pin to enter into the application, do not forget</p>
+                    <input type="password" name="passcode" id="passcode" class="form-control" required>
+                    <button type="submit" id="submit" class="btn btn-primary mt-2">Submit</button>
+                </form>
+                <a id="skip" href="#" class="btn btn-primary mt-2">Skip</a>
+                <p class="content d-flex flex-column align-items-center">Skipping this is only for testing purposes, it will result in undefined behavior</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../scripts/enterUserInfo.js"></script>
+</body>
+</html>
+
+
+
+
+
+

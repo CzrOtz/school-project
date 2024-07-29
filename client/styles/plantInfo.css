@@ -1,0 +1,11 @@
+.form-label {
+    margin-bottom: 0.3rem; /* Reduce space between label and input */
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Adjust spacing between form groups */
+}
+
+.d-flex.justify-content-center {
+    text-align: center; /* Center the button */
+}

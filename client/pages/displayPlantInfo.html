@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Info</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/displayPlantInfo.css"> <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="../universalStyle.css">
+</head>
+<body>
+    <div class="container-md bg-dark text-white py-5 mb-5">
+        <div class="header mb-4">
+            <a href="userMenu.html" class="btn btn-primary mb-3">
+                <i class="fas fa-bars"> Main Menu</i>
+            </a>
+            <h1>Plant Info</h1>
+        </div>
+        <div class="content d-flex flex-column align-items-center">
+            <p>Information about plant</p>
+            <p>ID: <span id="plantID" class="plant-info"></span></p>
+            <p>Plant Name: <span id="plantName" class="plant-info"></span></p>
+            <p>Plant Location: <span id="plantLocation" class="plant-info"></span></p>
+            <p>Date of Installation: <span id="plantDate" class="plant-info"></span></p>
+            <a id="changePlantInfo" href="approvalPage.html" class="btn btn-primary mb-3">Change Plant Info</a>
+        </div>
+        <p class="content d-flex flex-column align-items-center">Implement the page to get basic information about the plant such as the plant ID and date of installation,</p>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../scripts/plantInfo.js"></script>
+</body>
+</html>
+
+

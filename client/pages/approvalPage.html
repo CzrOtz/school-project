@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Password</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../universalStyle.css">
+</head>
+<body>
+    <div class="container-md bg-dark text-white py-5 mb-5">
+        <div class="header mb-4">
+            <a href="userMenu.html" class="btn btn-primary mb-3">
+                <i class="fas fa-bars"> Main Menu</i>
+            </a>
+            <h1>Check Password</h1>
+        </div>
+        <div class="content d-flex flex-column align-items-center">
+            <p>Enter your password to continue</p>
+            <form>
+                <p>Password</p>
+                <input type="password" name="password" id="password" class="form-control" required placeholder="Password">
+                <button type="submit" id="submit" class="btn btn-primary mt-2">Submit</button>
+            </form>
+            <p class="content d-flex flex-column align-items-center">additional layer of security</p>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.amazonaws.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../scripts/approvalPage.js"></script>
+</body>
+</html>
